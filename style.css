@@ -1,0 +1,59 @@
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#0b1220;
+  color:#fff;
+  line-height:1.6;
+}
+
+h1,h2,h3{
+  margin:10px 0;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:15px 20px;
+  background:#111c33;
+  position:sticky;
+  top:0;
+}
+
+.hero{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero-img{
+  width:120px;
+  border-radius:50%;
+  border:3px solid #4ea1ff;
+}
+
+.cta a{
+  display:inline-block;
+  margin:10px;
+  padding:10px 15px;
+  background:#4ea1ff;
+  color:#000;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+section{
+  padding:60px 20px;
+  max-width:900px;
+  margin:auto;
+}
+
+.skill .bar{
+  background:#222;
+  height:10px;
+  border-radius:5px;
+}
+
+.skill span{
+  display:block;
+  height:10px;
+  background:#4ea1ff;
+}
